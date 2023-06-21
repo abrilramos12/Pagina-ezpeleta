@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:rgb(161, 161, 227) ;
+}
+
+h1,h2{
+    margin: 30px;
+    padding: 50px;
+    text-align: center;
+}
+
+.p-header{
+    color: white;
+   
+
+}
+
+
+/* Seccion 1 */
+
+.img-servicios{
+     width: 180px;
+      height: 160;
+}
