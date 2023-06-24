@@ -16,9 +16,14 @@ h1,h2{
 .p-header{
     color: white;
    
+   
 
 }
 
+.logo-princip{
+    width: 60px;
+    border-radius: 5px;
+}
 
 /* Seccion 1 */
 
@@ -26,3 +31,38 @@ h1,h2{
      width: 180px;
       height: 160;
 }
+
+
+.card-nosotros{
+    width: 300px;
+   margin: 10px;
+}
+.img-nosotros{
+    width: 300px;
+    
+}
+
+
+/* Seccion 3 clientes */
+
+.carrousel-clientes{
+   
+}
+
+.carrousel-section{
+    display: flex;
+    padding: 20px;
+    margin: 30px;
+}
+
+/* seccion 4 sobre nosotros  */
+
+img{
+    width: 360px;
+}
+.container{
+    max-width: 790px;
+}
+ #imagen-principal{
+    width: 300px;
+ }
