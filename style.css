@@ -1,62 +1,65 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-header{
-    background-color:rgb(161, 161, 227) ;
+header {
+    background-color: rgb(161, 161, 227);
 }
 
-h1,h2{
+h1,
+h2 {
     margin: 30px;
     padding: 50px;
     text-align: center;
 }
 
-.p-header{
+
+.p-header {
     color: white;
-   
-   
+
+
 
 }
 
-.logo-princip{
+.logo-princip {
     width: 60px;
     border-radius: 5px;
 }
 
 /* Seccion 1 */
 
-.img-servicios{
-     width: 180px;
-      height: 160;
+.img-servicios {
+    width: 180px;
+    height: 160;
 }
 
 
-.card-nosotros{
+.card-nosotros {
     width: 300px;
-   margin: 10px;
+    margin: 10px;
 }
-.img-nosotros{
+
+.img-nosotros {
     width: 300px;
-    
+
 }
 
 
 /* Seccion 3 clientes */
 
-.carrousel-clientes{
-   
-}
 
-.carrousel-section{
+
+.carrousel-section {
     display: flex;
+    justify-content: space-around;
     padding: 20px;
     margin: 30px;
 }
+/* Mapa */
+
 
 /* seccion 4 sobre nosotros  */
-
 img{
     width: 360px;
 }
@@ -65,4 +68,40 @@ img{
 }
  #imagen-principal{
     width: 300px;
+ }
+
+/*Footer */
+footer {
+    background: #1b2a4e;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+ .iconos a{
+    color:#f3f3f3;
+    font-size: 26px;
+    padding: 0 10px;
+    margin-top: 0;
+ }
+
+ .seccion-contacto{
+    display: flex;
+    justify-content: space-around;
+
+ }
+
+ .map{
+    margin: 0px 0px 0px 20px;
+ }
+
+ .img-map{
+    width: 500px;
+    margin: 0px 5px 5px 15px;
  }
